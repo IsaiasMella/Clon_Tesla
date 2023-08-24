@@ -6,7 +6,7 @@ import { ImageLayout, MainHomeLayout } from "../../../../Components/Layouts";
 export const MainHome = () => {
   return (
     <>
-      <div className="snap-start">
+      <div id="Model_Y" className="snap-start">
         <MainHomeLayout
           title="Model Y"
           subtitle="Concertar una prueba de conducción"
@@ -20,7 +20,7 @@ export const MainHome = () => {
         </MainHomeLayout>
       </div>
 
-      <div className="snap-start">
+      <div id="Model_3" className="snap-start">
         <MainHomeLayout
           title="Model 3"
           subtitle="Concertar una prueba de conducción"
@@ -34,7 +34,7 @@ export const MainHome = () => {
         </MainHomeLayout>
       </div>
 
-      <div className="snap-start">
+      <div id="Model_S" className="snap-start">
         <MainHomeLayout
           title="Model S"
           subtitle="Programe una consulta virtual"
@@ -49,7 +49,7 @@ export const MainHome = () => {
         </MainHomeLayout>
       </div>
 
-      <div className="snap-start">
+      <div id="Model_X" className="snap-start">
         <MainHomeLayout
           title="Model X"
           subtitle="Programe una consulta virtual"
@@ -63,7 +63,7 @@ export const MainHome = () => {
         </MainHomeLayout>
       </div>
 
-      <div className="snap-start">
+      <div id="Powerwall" className="snap-start">
         <MainHomeLayout
           title="Solar y Powerwall"
           subtitle="Energía para todos"
@@ -79,7 +79,7 @@ export const MainHome = () => {
         </MainHomeLayout>
       </div>
 
-      <div id="section-home" className="snap-start">
+      <div id="Carga" className="snap-start">
         <MainHomeLayout title="Accesorios" setColor="#000">
           <div className="pb-[70px] z-40 flex gap-x-6">
             <Button

@@ -11,7 +11,7 @@ export const Button = ({ type, title, customStyle = "" }) => {
   return (
     <a
       className={
-        `cursor-pointer text-current border-curren` + typeButton[type] + customStyle
+        `cursor-pointer ` + typeButton[type] + customStyle
       }
     >
       {title}

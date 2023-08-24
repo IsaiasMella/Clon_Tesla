@@ -55,22 +55,22 @@ export const NavBar = () => {
       <nav id="navigator">
         <ul className="flex text-sm justify-center whitespace-nowrap z-[100] [&>li>a]:text-current [&>li>a]:font-medium [&>li>a]:inline-block [&>li>a]:px-4 [&>li>a]:py-1 transition-colors duration-200">
           <li>
-            <a href="#">Model S</a>
+            <a href="#Model_S">Model S</a>
           </li>
           <li>
-            <a href="#">Model 3</a>
+            <a href="#Model_3">Model 3</a>
           </li>
           <li>
-            <a href="#">Model X</a>
+            <a href="#Model_X">Model X</a>
           </li>
           <li>
-            <a href="#">Model Y</a>
+            <a href="#Model_Y">Model Y</a>
           </li>
           <li>
-            <a href="#">Powerwall</a>
+            <a href="#Powerwall">Powerwall</a>
           </li>
           <li>
-            <a href="#">Carga</a>
+            <a href="#Carga">Carga</a>
           </li>
         </ul>
       </nav>
