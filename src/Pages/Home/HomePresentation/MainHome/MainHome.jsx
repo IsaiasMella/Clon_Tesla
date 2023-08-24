@@ -1,7 +1,6 @@
 import { Button } from "../../../../Components/Buttons";
 import { ImageLayout, MainHomeLayout } from "../../../../Components/Layouts";
-
-
+import {Footer} from "../../../../Components/Layouts/Footer/Footer"
 
 export const MainHome = () => {
   return (
@@ -88,6 +87,7 @@ export const MainHome = () => {
             />
           </div>
           <ImageLayout url="/accessories.webp" />
+      <Footer />
         </MainHomeLayout>
       </div>
     </>

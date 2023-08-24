@@ -17,7 +17,7 @@ const Home = () => {
 
   return (
     <div className="snap-y snap-mandatory relative w-full h-screen overflow-y-auto overflow-x-hidden scroll-smooth">
-      <HomePresentation />     
+      <HomePresentation />    
     </div>
   );
 };
