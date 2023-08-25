@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+import { useContext } from "react";
+import { FunctionNotAvailable } from "../../Context/FunctionNotAvailableProvider";
 
 const typeButton = {
   outline:
@@ -21,9 +23,11 @@ const animationButton = {
 };
 
 export const Button = ({ type, title, customStyle = "" }) => {
+  const { setPortalOriginalTesla } = useContext(FunctionNotAvailable);
+
   return (
     <motion.div variants={animationButton} initial="hidden" animate="visible">
-      <a className={`cursor-pointer ` + typeButton[type] + customStyle}>
+      <a onClick={setPortalOriginalTesla} className={`cursor-pointer ` + typeButton[type] + customStyle}>
         {title}
       </a>
     </motion.div>
