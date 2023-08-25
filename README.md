@@ -14,6 +14,9 @@ Cuando vi la página de Tesla, me gustó mucho su diseño innovador y se me ocur
 * Controlled Components
 * Lifting State Up
 
+# ***Nota:***
+> De momento, solamente se realizó la _landing_, ya que, al parecer, **Tesla** se encuentra en fase de prueba en su página, lo que genera varios cambios constantemente.
+
 Te invito a revisar este proyecto desplegado en Vercel
 
 ### ![minilogo_tesla](https://github.com/IsaiasMella/Clon_Tesla/assets/67384494/a85ffcd8-03e8-48c3-b7ab-9931720ba5ad) **[Tesla Clone](https://clon-tesla-three.vercel.app/)**
