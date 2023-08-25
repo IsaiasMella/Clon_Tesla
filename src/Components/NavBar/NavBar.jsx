@@ -1,8 +1,12 @@
+import { useContext, useEffect } from "react";
+
+import { FunctionNotAvailable } from "../../Context/FunctionNotAvailableProvider";
+
 import { Logo } from "../Images/Logo";
-import { useEffect } from "react";
 
 export const NavBar = () => {
-  
+  const { setPortalOriginalTesla } = useContext(FunctionNotAvailable);
+
   useEffect(() => {
     const listItems = document.querySelectorAll("#navigator li");
     const box = document.querySelector("#box");
@@ -10,7 +14,7 @@ export const NavBar = () => {
     listItems.forEach((item) => {
       item.addEventListener("mouseenter", () => {
         const { top, left, width, height } = item.getBoundingClientRect();
-        
+
         box.style.setProperty("--mainAxis", `${left}px`);
         box.style.setProperty("--crossAxis", `${top}px`);
         box.style.setProperty("--width", `${width}px`);
@@ -77,13 +81,13 @@ export const NavBar = () => {
       <nav id="navigator" className="flex flex-grow basis-0 justify-end">
         <ul className="flex text-sm justify-center whitespace-nowrap [&>li>a]:text-current [&>li>a]:font-medium [&>li>a]:inline-block [&>li>a]:px-4 [&>li>a]:py-1">
           <li>
-            <a href="#">Tienda</a>
+            <a onClick={setPortalOriginalTesla} href="#">Tienda</a>
           </li>
           <li>
-            <a href="#">Cuenta</a>
+            <a onClick={setPortalOriginalTesla} href="#">Cuenta</a>
           </li>
           <li>
-            <a href="#">Menú</a>
+            <a onClick={setPortalOriginalTesla} href="#">Menú</a>
           </li>
         </ul>
       </nav>
