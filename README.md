@@ -1,8 +1,14 @@
-# React + Vite
+# Clon de Tesla
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##Descripción del proyecto
+Cuando vi la pagina de Tesla, me gusto mucho su diseño innovador y se me ocurrio la idea de realizarle una copia fiel con la mayor parte de sus funcionalidades. Para realizarla decidi utilizar React junto con sus Hooks, Tailwind CSS y javascript, tambien utilice patrones de diseño tales como:
 
-Currently, two official plugins are available:
+-Stateful / Stateless
+-Componentización
+-Context API
+-Hooks
+-Compound Components
+-Controlled Components
+-Lifting State Up
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Te invito a revisar este proyecto desplegado en Vercel
