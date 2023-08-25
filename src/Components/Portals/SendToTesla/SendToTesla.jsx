@@ -13,9 +13,14 @@ export const SendToTesla = ({ controlPortal }) => {
         </div>
         <div className="bg-[#f3f3f3] rounded-md p-10 flex flex-col justify-center items-center gap-6">
           <p className="text-center max-w-xs">
+            De momento, solamente se realizó la landing, ya que, al parecer,
+            <b>Tesla</b> se encuentra en fase de prueba en su página, lo que genera
+            varios cambios constantemente.
+          </p>
+          {/* <p className="text-center max-w-xs">
             Esta opción solo está disponible en la página oficial de{" "}
             <b>Tesla</b>.
-          </p>
+          </p> */ }
 
           <ButtonTesla
             target="_blank"
