@@ -5,14 +5,22 @@ export const SendToTesla = ({ controlPortal }) => {
   return (
     <div className="w-full h-full flex justify-center items-center">
       <div className=" relative flex flex-col justify-center items-center">
-        <div className="cursor-pointer absolute z-[110] top-[-40px] right-[-35px]" onClick={controlPortal}>
+        <div
+          className="cursor-pointer absolute z-[110] top-[-40px] right-[-35px]"
+          onClick={controlPortal}
+        >
           <Cross />
         </div>
         <div className="bg-[#f3f3f3] rounded-md p-10 flex flex-col justify-center items-center gap-6">
           <p className="text-center max-w-xs">
+            De momento, solamente se realizó la landing, ya que, al parecer,
+            <b>Tesla</b> se encuentra en fase de prueba en su página, lo que genera
+            varios cambios constantemente.
+          </p>
+          {/* <p className="text-center max-w-xs">
             Esta opción solo está disponible en la página oficial de{" "}
             <b>Tesla</b>.
-          </p>
+          </p> */}
 
           <ButtonTesla
             target="_blank"
