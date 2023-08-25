@@ -20,7 +20,7 @@ export const SendToTesla = ({ controlPortal }) => {
           {/* <p className="text-center max-w-xs">
             Esta opción solo está disponible en la página oficial de{" "}
             <b>Tesla</b>.
-          </p> */}
+          </p> */ }
 
           <ButtonTesla
             target="_blank"
