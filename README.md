@@ -1,8 +1,24 @@
-# React + Vite
+# Clon de Tesla
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Banner_tesla](https://github.com/IsaiasMella/Clon_Tesla/assets/67384494/c3da219a-2b33-4c20-bf73-8d906dcefe43)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Descripción del proyecto
+Cuando vi la página de Tesla, me gustó mucho su diseño innovador y se me ocurrió la idea de realizarle una copia fiel con la mayor parte de sus funcionalidades. Para realizarla decidí utilizar **[React](https://reactjs.org)** junto con sus **[Hooks](https://react.dev/reference/react), [Tailwind CSS](https://tailwindcss.com)** y **[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript);** también utilicé patrones de diseño tales como:
+
+* Stateful / Stateless
+* Componentización
+* Context API
+* Hooks
+* Compound Components
+* Controlled Components
+* Lifting State Up
+
+# ***Nota:***
+> De momento, solamente se realizó la _landing_, ya que, al parecer, **Tesla** se encuentra en fase de prueba en su página, lo que genera varios cambios constantemente.
+
+Te invito a revisar este proyecto desplegado en Vercel
+
+### ![minilogo_tesla](https://github.com/IsaiasMella/Clon_Tesla/assets/67384494/a85ffcd8-03e8-48c3-b7ab-9931720ba5ad) **[Tesla Clone](https://clon-tesla-three.vercel.app/)**
+
+
