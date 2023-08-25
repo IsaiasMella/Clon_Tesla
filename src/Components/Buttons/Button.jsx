@@ -6,7 +6,7 @@ const typeButton = {
   darkFill:
     "cursor-pointer border-[3px] border-[#393c41] bg-[#393c41] text-sm rounded font-medium text-white px-14 py-2 inline-block transition-colors duration-300 hover:border-gray-500 hover:bg-gray-500",
   lightFill:
-    "cursor-pointer border-[3px] border-white bg-white text-sm rounded font-medium px-14 py-2 transition-colors hover:bg-black hover:border-black hover:text-white inline-flex justify-center items-center text-black",
+    "cursor-pointer border-[3px]  border-white bg-white text-sm rounded font-medium px-14 py-2 transition-colors hover:bg-black hover:border-black hover:text-white inline-flex justify-center items-center text-black",
 };
 
 const animationButton = {
