@@ -1,12 +1,9 @@
 export const MenuHamburguer = () => {
   return (
     <svg
-      width="44"
-      height="44"
       viewBox="0 0 24 24"
       strokeWidth="1.5"
-      stroke="#2c3e50"
-      className="stroke-white"
+      className="bg-transparent stroke-current w-8 h-8"
       fill="none"
       strokeLinecap="round"
       strokeLinejoin="round"
