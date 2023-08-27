@@ -11,7 +11,7 @@ export const HeaderHome = () => {
           setColor="#fff"
           textColor="text-white"
         >
-          <div className="pb-[88px] z-40">
+          <div className="pb-[88px] z-40 mb-8 md:mb-0">
             <Button type="outline" title="Prueba de conducción" />
           </div>
           <VideoLayout url="/video.webm" />
