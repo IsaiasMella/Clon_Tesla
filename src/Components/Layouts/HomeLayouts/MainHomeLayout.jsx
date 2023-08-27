@@ -30,7 +30,7 @@ export const MainHomeLayout = ({
   textColor,
 }) => {
   return (
-    <section className="h-screen w-full relative">
+    <section className="h-screen w-full relative ">
       <header
         id="nav-bar"
         className="h-screen w-full flex flex-col items-center justify-between"
