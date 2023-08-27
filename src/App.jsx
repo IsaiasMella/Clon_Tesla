@@ -10,10 +10,9 @@ import { SendToTesla, MenuMobile } from "./Components/Portals";
 import { MenuMobileContext } from "./Context/MenuMobileProvider";
 
 function App() {
-  const { portalOriginalTeslaIsOpen, setPortalOriginalTesla } =
-    useContext(FunctionNotAvailable);
-
+  const { portalOriginalTeslaIsOpen, setPortalOriginalTesla } = useContext(FunctionNotAvailable);
   const { portalMobileIsOpen, setMenuMobilePortal } = useContext(MenuMobileContext);
+
   return (
     <>
       {portalMobileIsOpen && (

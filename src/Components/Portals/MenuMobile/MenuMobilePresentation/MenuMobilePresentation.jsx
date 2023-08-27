@@ -21,7 +21,7 @@ export const MenuMobilePresentation = ({controlPortalMenu, handleClick, controlP
       <div className="absolute top-0 left-0 bg-white w-full h-full z-[100] flex justify-center flex-col pb-8">
         <div className="w-full flex justify-end px-8 py-2">
           <div onClick={controlPortalMenu} className="cursor-pointer">
-            <Cross color="slate-700" />
+            <Cross color="stroke-slate-700" />
           </div>
         </div>
         <nav

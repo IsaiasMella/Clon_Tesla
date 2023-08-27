@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-  h1{
-    @apply text-[40px] font-bold;
+@layer base {
+  h1 {
+    @apply text-4xl md:text-[40px] font-medium md:font-bold;
   }
 }
 

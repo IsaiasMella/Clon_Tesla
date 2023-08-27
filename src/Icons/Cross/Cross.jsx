@@ -1,11 +1,11 @@
-export const Cross = ({color = 'white'}) => {
+export const Cross = ({color = 'stroke-white'}) => {
   return (
     <svg
       fill="none"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={1.5}
-      className={`stroke-${color} w-8 h-8`}
+      className={`${color} w-8 h-8`}
       viewBox="0 0 24 24"
     >
       <path stroke="none" d="M0 0h24v24H0z" />

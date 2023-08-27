@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { useNavColor } from "../../Hooks/useNavColor";
 
 import { HomePresentation } from "./HomePresentation";
+import { Footer } from "../../Components/Layouts/Footer/Footer";
 
 const Home = () => {
   const { setItems, setNavBar, navBar } = useNavColor();
@@ -16,9 +17,12 @@ const Home = () => {
   }, [navBar]);
 
   return (
+    <>
     <div className="snap-y snap-mandatory relative w-full h-screen overflow-y-auto overflow-x-hidden scroll-smooth">
-      <HomePresentation />    
+      <HomePresentation /> 
     </div>
+    <Footer />   
+    </>
   );
 };
 
