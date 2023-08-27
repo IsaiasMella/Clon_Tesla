@@ -14,9 +14,9 @@ export const NavBarPresentation = () => {
       id="nav-bar"
       className="py-4 px-6 md:px-12 flex items-center fixed top-0 w-full justify-between z-40"
     >
-      <div className="flex flex-grow basis-0">
+      <a href="#top-home" className="flex flex-grow basis-0">
         <Logo />
-      </div>
+      </a>
 
       <div
         id="box"
