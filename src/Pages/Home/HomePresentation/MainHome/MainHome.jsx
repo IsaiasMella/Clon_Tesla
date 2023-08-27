@@ -85,7 +85,7 @@ export const MainHome = () => {
         </MainHomeLayout>
       </div>
 
-      <div id="Carga" className="snap-start snap-mandatory h-screen">
+      <div id="Carga" className="snap-start snap-mandatory">
         <MainHomeLayout title="Accesorios" setColor="#000">
           <div className=" flex flex-col z-40 pb-[48px] md:pb-[70px] gap-y-8 md:flex-row md:gap-x-6">
             <Button
