@@ -29,22 +29,22 @@ export const MenuMobilePresentation = ({controlPortalMenu, handleClick, controlP
           className="flex flex-col px-8 w-full justify-center text-slate-700"
         >
           <ul className="mb-20 [&>li]:p-2 [&>li]:cursor-pointer [&>li>a]:text-lg [&>li>a]:font-medium flex flex-col gap-2">
-            <li onClick={() => handleClick("#Model_S")}>
+            <li onClick={(e) => handleClick("#Model_S",e)}>
               <a href="#Model_S">Model S</a>
             </li>
-            <li onClick={() => handleClick("#Model_3")}>
+            <li onClick={(e) => handleClick("#Model_3",e)}>
               <a href="#Model_3">Model 3</a>
             </li>
-            <li onClick={() => handleClick("#Model_X")}>
+            <li onClick={(e) => handleClick("#Model_X",e)}>
               <a href="#Model_X">Model X</a>
             </li>
-            <li onClick={() => handleClick("#Model_Y")}>
+            <li onClick={(e) => handleClick("#Model_Y",e)}>
               <a href="#Model_Y">Model Y</a>
             </li>
-            <li onClick={() => handleClick("#Powerwall")}>
+            <li onClick={(e) => handleClick("#Powerwall",e)}>
               <a href="#Powerwall">Powerwall</a>
             </li>
-            <li onClick={() => handleClick("#Carga")}>
+            <li onClick={(e) => handleClick("#Carga",e)}>
               <a href="#Carga">Carga</a>
             </li>
           </ul>
