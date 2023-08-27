@@ -3,7 +3,8 @@ import { useEffect } from "react";
 import { MenuMobilePresentation } from "./MenuMobilePresentation/MenuMobilePresentation";
 
 export const MenuMobile = ({ controlPortalTesla, controlPortalMenu }) => {
-  const handleClick = (href) => {
+  const handleClick = (href, e) => {
+    e.stopPropagation()
     controlPortalMenu();
     window.location.hash = href;
   };
