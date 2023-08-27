@@ -18,10 +18,10 @@ export const Footer = () => {
       >
         <li>Tesla © 2023</li>
         <li>Privacidad y legal</li>
-        <li className="hidden md:inline-block" >Contacto</li>
+        <li className="hidden md:inline-block">Contacto</li>
         <li>Noticias</li>
-        <li className="hidden md:inline-block" >Seguir informado</li>
-        <li className="hidden md:inline-block" >Localización de tiendas</li>
+        <li className="hidden md:inline-block">Seguir informado</li>
+        <li className="hidden md:inline-block">Localización de tiendas</li>
       </ul>
     </div>
   );

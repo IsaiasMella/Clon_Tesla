@@ -3,7 +3,6 @@ import { useContext } from "react";
 import { FunctionNotAvailable, MenuMobileContext } from "../../../Context";
 
 import { NavBarDesktop } from "./NavBarDesktop/NavBarDesktop";
-import { MenuHamburguer } from "../../../Icons/MenuHamburguer/MenuHamburguer";
 import { Logo } from "../../Images/Logo";
 
 export const NavBarPresentation = () => {
@@ -13,7 +12,7 @@ export const NavBarPresentation = () => {
   return (
     <main
       id="nav-bar"
-      className="py-4 px-12 flex items-center fixed top-0 w-full justify-between z-40"
+      className="py-4 px-6 md:px-12 flex items-center fixed top-0 w-full justify-between z-40"
     >
       <div className="flex flex-grow basis-0">
         <Logo />
@@ -41,7 +40,7 @@ export const NavBarPresentation = () => {
         id="navigator"
         className="cursor-pointer lg:hidden bg-transparent"
       >
-        <MenuHamburguer />
+        <p className="font-medium">Menú</p>
       </div>
     </main>
   );

@@ -3,7 +3,7 @@ import { MainHomeLayout, VideoLayout } from "../../../../Components/Layouts";
 
 export const HeaderHome = () => {
   return (
-    <div id="nav-bar" className="snap-start">
+    <div id="nav-bar" className="snap-mandatory snap-start">
       <MainHomeLayout
         title="Disfrute de Tesla"
         subtitle="Programe una prueba de conducción hoy mismo"
