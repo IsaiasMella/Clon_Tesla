@@ -1,12 +1,16 @@
 import { useEffect } from "react";
 
-import { NavBarPresentation } from "./NavBarPresentation/NavBarPresentation";
+import { MenuMobilePresentation } from "./MenuMobilePresentation/MenuMobilePresentation";
 
-export const NavBar = () => {
+export const MenuMobile = ({ controlPortalTesla, controlPortalMenu }) => {
+  const handleClick = (href) => {
+    controlPortalMenu();
+    window.location.hash = href;
+  };
 
   useEffect(() => {
-    const listItems = document.querySelectorAll("#navigator li");
-    const box = document.querySelector("#box");
+    const listItems = document.querySelectorAll("#navigatorMobile li");
+    const box = document.querySelector("#boxMobile");
 
     listItems.forEach((item) => {
       item.addEventListener("mouseenter", () => {
@@ -30,8 +34,10 @@ export const NavBar = () => {
   }, []);
 
   return (
-    <>
-      <NavBarPresentation />
-    </>
+    <MenuMobilePresentation
+      controlPortalMenu={controlPortalMenu}
+      handleClick={handleClick}
+      controlPortalTesla={controlPortalTesla}
+    />
   );
 };

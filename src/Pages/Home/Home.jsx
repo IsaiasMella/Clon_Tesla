@@ -16,9 +16,11 @@ const Home = () => {
   }, [navBar]);
 
   return (
-    <div className="snap-y snap-mandatory relative w-full h-screen overflow-y-auto overflow-x-hidden scroll-smooth">
-      <HomePresentation />    
-    </div>
+    <>
+      <div className="snap-y relative w-full h-screen overflow-y-auto overflow-x-hidden scroll-smooth">
+        <HomePresentation />
+      </div>
+    </>
   );
 };
 

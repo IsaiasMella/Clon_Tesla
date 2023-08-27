@@ -2,11 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-  h1{
-    @apply text-[40px] font-bold;
+@layer base {
+  h1 {
+    @apply text-4xl md:text-[40px] font-medium md:font-bold;
   }
 }
+
+@layer utilities {
+  .snap-y {
+    scroll-snap-type: y mandatory;
+  }
+  .snap-mandatory {
+    scroll-snap-align: start;
+  }
+  .snap-none {
+    scroll-snap-align: none;
+  }
+}
+
 
 @font-face {
   font-family: "Gotham SSm A";

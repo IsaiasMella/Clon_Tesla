@@ -4,9 +4,9 @@ import { ButtonTesla } from "../../Buttons";
 export const SendToTesla = ({ controlPortal }) => {
   return (
     <div className="w-full h-full flex justify-center items-center">
-      <div className=" relative flex flex-col justify-center items-center">
+      <div className=" w-10/12 md:max-w-md relative flex flex-col justify-center items-center">
         <div
-          className="cursor-pointer absolute z-[110] top-[-40px] right-[-35px]"
+          className="cursor-pointer absolute z-[110] top-[-35px] md:top-[-40px] right-[-10px] md:right-[-15px]"
           onClick={controlPortal}
         >
           <Cross />

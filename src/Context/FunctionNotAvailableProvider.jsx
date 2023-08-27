@@ -8,7 +8,6 @@ export const FunctionNotAvailableProvider = ({ children }) => {
 
   const setPortalOriginalTesla = () => {
     setPortalOriginalTeslaIsOpen(!portalOriginalTeslaIsOpen);
-    console.log(portalOriginalTeslaIsOpen)
   };
 
   const values = {
