@@ -4,7 +4,7 @@ export const ImageLayout = ({ url }) => {
       <img
         slot="background"
         src={url}
-        className="h-full w-full object-center object-cover"
+        className="h-full w-full object-center object-cover my-image"
       />
     </div>
   );

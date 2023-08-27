@@ -38,7 +38,7 @@ export const MainHome = () => {
           subtitle="Programe una consulta virtual"
           setColor="#000"
         >
-          <div className="flex flex-col z-40 pb-[48px] md:pb-[70px] gap-y-8 px-20 md:flex-row md:gap-x-6">
+          <div className=" flex flex-col z-40 pb-[48px] md:pb-[70px] gap-y-8 md:flex-row md:gap-x-6">
             <Button type="darkFill" title="Pedidoper sonalizado" />
             <Button customStyle='px-[8.2rem] md:px-[5.63rem] ' type="lightFill" title="Saber más" />
           </div>
