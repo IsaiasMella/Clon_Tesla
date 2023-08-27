@@ -30,7 +30,7 @@ export const MainHomeLayout = ({
   textColor,
 }) => {
   return (
-    <section className="h-screen w-full relative">
+    <section className="h-screen w-full relative ">
       <header
         id="nav-bar"
         className="h-screen w-full flex flex-col items-center justify-between"
@@ -46,7 +46,7 @@ export const MainHomeLayout = ({
           <motion.h1 variants={item} className={textColor}>
             {title}
           </motion.h1>
-          <motion.p variants={item} className={textColor + " inline-block text-sm w-[90%] md:w-full"}>
+          <motion.p variants={item} className={textColor + " inline-block text-sm  w-[90%] md:w-full"}>
             {subtitle}
           </motion.p>
         </motion.div>
