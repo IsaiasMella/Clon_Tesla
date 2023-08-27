@@ -41,12 +41,12 @@ export const MainHomeLayout = ({
           variants={container}
           initial="hidden"
           animate="visible"
-          className="pt-[5.5rem] text-center z-30"
+          className="pt-[5.5rem] felx-flex-col items-center text-center z-30"
         >
           <motion.h1 variants={item} className={textColor}>
             {title}
           </motion.h1>
-          <motion.p variants={item} className={textColor + " text-sm"}>
+          <motion.p variants={item} className={textColor + " inline-block text-sm w-[90%] md:w-full"}>
             {subtitle}
           </motion.p>
         </motion.div>

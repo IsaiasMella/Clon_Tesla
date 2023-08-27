@@ -1,10 +1,12 @@
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
-import { FunctionNotAvailableProvider } from "./Context/FunctionNotAvailableProvider.jsx";
+import { FunctionNotAvailableProvider, MenuMobileProvider } from "./Context";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <FunctionNotAvailableProvider>
-    <App />
+    <MenuMobileProvider>
+      <App />
+    </MenuMobileProvider>
   </FunctionNotAvailableProvider>
 );
